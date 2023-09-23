@@ -1,0 +1,20 @@
+/* CSS */
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Takes up the entire viewport height */
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center; /* Center buttons horizontally within the .buttons div */
+    margin-top: 20px; /* Add some space between the heading and buttons (adjust as needed) */
+  }
+  
+  /* Add a margin between the buttons for spacing */
+  .buttons button {
+    margin-right: 10px;
+  }
+  
