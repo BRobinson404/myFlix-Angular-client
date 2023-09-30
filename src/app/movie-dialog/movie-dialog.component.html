@@ -1,0 +1,27 @@
+<mat-dialog-content>
+  <!-- Content for genre dialog -->
+  <ng-container *ngIf="data.dialogType === 'genre'">
+    <h3>Genre Information</h3>
+    <p>Name: {{ data.movie.Genre.Name }}</p>
+    <p>Description: {{ data.movie.Genre.Description }}</p>
+  </ng-container>
+
+  <!-- Content for director dialog -->
+  <ng-container *ngIf="data.dialogType === 'director'">
+    <h3>Director Information</h3>
+    <p>Name: {{ data.movie.Director.Name }}</p>
+    <p>Bio: {{ data.movie.Director.Bio }}</p>
+    <p>Birth: {{ data.movie.Director.Birth }}</p>
+    <p>Death: {{ data.movie.Director.Death }}</p>
+  </ng-container>
+
+  <!-- Content for synopsis dialog -->
+  <ng-container *ngIf="data.dialogType === 'synopsis'">
+    <h3>Synopsis</h3>
+    <p>{{ data.movie.Descriptions }}</p>
+  </ng-container>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button (click)="closeDialog()">Close</button>
+</mat-dialog-actions>

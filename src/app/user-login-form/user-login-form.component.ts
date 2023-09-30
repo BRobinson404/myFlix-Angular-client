@@ -11,6 +11,7 @@ import { FetchApiDataService } from '../fetch-api-data.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 
 
+
 @Component({
   selector: 'app-user-login-form',
   templateUrl: './user-login-form.component.html',
@@ -49,6 +50,7 @@ export class UserLoginFormComponent implements OnInit {
       this.snackBar.open('Logged in', 'OK', {
         duration: 2000
       });
+      this.router.navigate(['movies']);
     }, (result) => {
       this.snackBar.open(result, 'OK', {
         duration: 2000

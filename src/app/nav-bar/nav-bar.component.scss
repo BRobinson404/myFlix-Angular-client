@@ -1,0 +1,41 @@
+/* Style for the mat-toolbar */
+.navbar {
+    background-color: #007bff; /* Adjust the background color as needed */
+    color: #fff; /* Adjust the text color as needed */
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the myFlix App heading */
+  .navbar h2 {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  /* Style for the links in the navigation bar */
+  .navbar a {
+    color: #fff; /* Adjust the link text color as needed */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+    transition: color 0.2s;
+  }
+  
+  .navbar a:hover {
+    color: #e0e0e0; /* Adjust the hover color as needed */
+  }
+  
+  /* Style for the Logout button */
+  .navbar button {
+    color: #fff; /* Adjust the button text color as needed */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+    transition: color 0.2s;
+  }
+  
+  .navbar button:hover {
+    color: #e0e0e0; /* Adjust the hover color as needed */
+  }
+  
