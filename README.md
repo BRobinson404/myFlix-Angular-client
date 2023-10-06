@@ -73,8 +73,13 @@ The myFlix Angular Client application includes several movie dialogs that provid
 ### Favorites
 Users can add and remove movies from their list of favorite movies.
 
+![image](https://github.com/BRobinson404/myFlix-Angular-client/assets/122922678/d997acac-4146-462c-ab8b-2816db4c866d)<br>
+![image](https://github.com/BRobinson404/myFlix-Angular-client/assets/122922678/eb878eaf-faed-40f1-b79d-ec353ed0fab7)
+
 ### User Profile
 Users can view their profile information, including their username and email. They can also update their username, password, and email.
+
+![image](https://github.com/BRobinson404/myFlix-Angular-client/assets/122922678/f39f7950-836a-4b64-9058-869e6773de7f)
 
 ## Dependencies
 - Angular
