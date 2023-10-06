@@ -7,6 +7,13 @@ Welcome to the myFlix Angular Client project. This client-side application is pa
 2. [Features](#features)
 3. [Getting Started](#getting-started)
 4. [Usage](#usage)
+   - [Welcome Page](#welcome-page)
+   - [User Registration](#user-registration)
+   - [User Login](#user-login)
+   - [Movie Listings](#movie-listings)
+   - [Movie Dialogs](#movie-dialogs)
+   - [Favorites](#favorites)
+   - [User Profile](#user-profile)
 5. [Dependencies](#dependencies)
 6. [Contributing](#contributing)
 
